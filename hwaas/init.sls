@@ -1,6 +1,6 @@
 Install servers:
   salt.state:
-    - sls: node-server
+    - sls: node
     - tgt: 'roles:hwaas-web'
     - tgt_type: pillar
 
